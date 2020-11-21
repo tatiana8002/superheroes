@@ -1,0 +1,26 @@
+*body {
+    outline: 1px solid pink;
+}
+
+div.container {
+    width: 980px;
+    min-height: 800px;
+    background-color: blue;
+    margin: 0px auto;
+    display: inline-block;
+}
+
+div.container div.top {
+    min-height: 150;
+    background-color: red;
+    display: inline-block;
+}
+
+div.container h1 {
+    text-align: center;
+}
+
+div.container div.bottom {
+    min-height: 400px;
+    background-color: green;
+}
